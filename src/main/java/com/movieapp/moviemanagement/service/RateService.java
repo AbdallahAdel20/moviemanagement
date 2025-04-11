@@ -1,6 +1,5 @@
 package com.movieapp.moviemanagement.service;
 
-import com.movieapp.moviemanagement.dto.RateDto;
 import com.movieapp.moviemanagement.entity.Rate;
 import com.movieapp.moviemanagement.entity.UserEntity;
 import com.movieapp.moviemanagement.mapper.RateMapper;
@@ -11,9 +10,7 @@ import com.movieapp.moviemanagement.request.RateRequest;
 import com.movieapp.moviemanagement.response.RateResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;
-
 import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

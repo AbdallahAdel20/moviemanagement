@@ -1,7 +1,6 @@
 package com.movieapp.moviemanagement.service;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.movieapp.moviemanagement.dto.MovieDto;

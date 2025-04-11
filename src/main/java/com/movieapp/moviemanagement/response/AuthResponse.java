@@ -1,6 +1,5 @@
 package com.movieapp.moviemanagement.response;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
